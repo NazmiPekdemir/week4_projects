@@ -1,3 +1,67 @@
+/*------- Header --------*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+header h1, header div {
+    width: 30%;
+}
+
+header nav a{
+    text-decoration: none;
+    color:black;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    /* display: flex;
+    gap: 0 0.5rem; */  /* Neden olmadı */
+}
+
+header nav a:hover {
+    color: red;
+}
+
+.accses-menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+input {
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem; /* Neden */ 
+    /* padding-right: 1.5rem; */
+    /* background-image: url("https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png");
+    background-size: 1rem;
+    background-repeat: no-repeat;   2. BİR YOL 
+    background-position: right; */
+
+}
+
+.search-icon{
+    margin-left:-2.3rem;
+}
+
+.notification-icon {
+    font-size: 2rem;
+}
+
+.user-avatar{
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+
 h1{
-    color:red,
+    color: red;
 }

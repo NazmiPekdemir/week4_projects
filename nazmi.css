@@ -142,7 +142,7 @@ main h2{
     margin: 1rem 0;
 }
 
-.discription{
+.description{
     width: 50%;
 }
 
@@ -233,3 +233,30 @@ footer div:last-child {
     flex-basis: 20%;
     flex-grow: 1;
 }
+
+@media (max-width:900px) {
+    body{
+        background: peru;
+    }
+    
+    .description{
+        width:100%;
+    }
+
+    header{
+        flex-wrap:wrap;
+        
+    }
+
+    header nav{
+        order:3;
+        /* width:100%; */ /* Neden */
+        text-align: center; /* çalışmadı */
+    }
+
+    .section-content{
+        overflow: auto;
+    }
+
+}
+

@@ -186,3 +186,50 @@ section{
     margin-left: 0;
 }
 
+
+/*------------Footer-----------*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap:5rem; /* Neden */
+    align-items: flex-start;
+    margin:1rem;
+    margin-bottom:10rem;
+}
+
+footer p:nth-child(n+1){
+    margin-top: 0;   /* Neden */
+}
+
+
+footer nav{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 1rem;
+}
+
+footer nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+footer img{
+    height:3rem;
+    margin-top: -0.4rem;
+}
+
+footer div:first-child {
+    flex-basis: 70%;  /* Neden */
+    flex-grow: 1;       /*Neden*/
+}
+
+footer div {
+    flex-basis: 20%;
+}
+
+footer div:last-child {
+    flex-basis: 20%;
+    flex-grow: 1;
+}

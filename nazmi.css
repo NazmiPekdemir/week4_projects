@@ -12,8 +12,26 @@ body{
 .btn{
     background: red;
     color:white;
-    padding: 1rem;
-    border-radius: 15px;
+    /* display: inline-block; */
+}
+
+.btn-xl{
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.7rem;
+    margin: 1rem 0;
+}
+
+.btn-xl > i{
+    margin-left: -0.1rem; /* Neden */
+    margin-right: 0.8rem;
+}
+
+.btn-l{
+    font-size: 1.2rem;
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.5rem;
+    margin: 0.9rem 0;
 }
 
 /*------- Header --------*/
@@ -86,6 +104,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 }
 
 main h2{
@@ -108,4 +127,8 @@ main h2{
 
 .details-container p{
     margin: 1rem 0;
+}
+
+.discription{
+    width: 50%;
 }

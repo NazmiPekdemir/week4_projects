@@ -28,7 +28,7 @@ body{
 }
 
 .btn-xl  i{
-    margin-left: -2rem; /* Neden */
+    margin-left: -2rem; 
     margin-right: 1rem;
 }
 
@@ -162,10 +162,6 @@ section{
     gap:3rem;
 }
 
-.section-content{
-    padding: 1rem; /* Neden */
-    
-}
 
 .card{
     width: 30%;
@@ -173,7 +169,7 @@ section{
     border: 1px solid black;
     padding: 0.8rem 3rem;
     display: flex;
-    flex-direction: column;  /* neden */
+    flex-direction: column;  
     justify-content: center;
     align-items: flex-start;
 } 
@@ -193,14 +189,14 @@ section{
 footer{
     display: flex;
     justify-content: space-between;
-    gap:5rem; /* Neden */
+    gap:5rem; 
     align-items: flex-start;
     margin:1rem;
     margin-bottom:10rem;
 }
 
 footer p:nth-child(n+1){
-    margin-top: 0;   /* Neden */
+    margin-top: 0;   
 }
 
 
@@ -222,20 +218,24 @@ footer img{
 }
 
 footer div:first-child {
-    flex-basis: 70%;  /* Neden */
-    flex-grow: 1;       /*Neden*/
+    flex-basis: 60%;  
+    flex-grow: 1;    
 }
 
-footer div {
-    flex-basis: 20%;
-}
+ footer div:nth-child(2) {
+    min-width: 200px;
+} 
 
+footer div:nth-child(3) {
+    min-width: 300px;
+} 
+/*
 footer div:last-child {
     flex-basis: 20%;
     flex-grow: 1;
-}
+} */
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
     body{
         background: peru;
     }
@@ -251,8 +251,8 @@ footer div:last-child {
 
     header nav{
         order:3;
-        /* width:100%; */ /* Neden */
-        text-align: center; /* çalışmadı */
+        width:100%; 
+        text-align: center; 
     }
 
     .section-content{
